@@ -1,0 +1,101 @@
+/* Reset básico para bordes, márgenes y padding */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor adaptable al ancho de la ventana */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Estructura general con anchos variables entre 1000 y 2000px */
+.container {
+  width: 80%;
+  max-width: 2000px;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Estilos para la cabecera */
+header {
+ 
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  display: flex;
+  
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+
+
+}
+
+/* Secciones principales */
+main .section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+main .section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+main .section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-item {
+  width: 30%;
+  text-align: center;
+}
+
+.service-item i {
+  font-size: 3rem;
+  color: #dfdf41;
+}
+
+.service-item h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
