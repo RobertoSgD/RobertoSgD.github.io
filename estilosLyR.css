@@ -1,0 +1,167 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif; 
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .imgBx {
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+section .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: coverS;
+}
+section .contentBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+}
+section .contentBx .formBx{
+    width: 50%;
+
+}
+section .contentBx .formBx h2{
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 0px 0px;
+}
+section .contentBx .formBx .inputBx{
+    
+    padding: 20px 0px ;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+section .contentBx .formBx .inputBx label{
+    position: relative;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    
+}
+section .contentBx .formBx .inputBx input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    padding-right: 30px
+}
+.inputBx input:focus ~ label{
+    transform: translateY(-20px);
+}
+section .contentBx .formBx .inputBx input[type="text"]{
+    margin-left: -5px;
+}
+section .contentBx .formBx .inputBx input[type="password"]{
+    margin-left: -5px;
+}
+section .contentBx .formBx .inputBx input[type="submit"]{
+    height: 40px;
+    width: 100;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor:pointer;
+   
+    
+}
+section .contentBx .formBx .inputBx input[type="submit"]:hover{
+    background: rgb(105, 105, 105);
+}
+section .contentBx .remember{
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 14px;
+    accent-color: rgb(0, 0, 0);
+}
+section .contentBx .formBx .registerBx{
+   
+    height: 40px;
+    width: 100;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    outline: solid;
+    outline-width: thin;
+    font-weight: 500;
+    cursor:pointer;
+    text-align: center;
+    align-content: center;
+}
+section .contentBx .formBx .inputBx input[type="submit"]:hover{
+    background: rgb(105, 105, 105);
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+footer {
+    
+    position: static;   
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px 0px;
+    margin: auto 0;
+}
+footer .politicasBx a{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid;
+    
+}
+section .contentBx .formBx .inputBx .iconEye{
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 18px;
+}
+.home-icon {
+    position: fixed;
+    top: 20px; 
+    right: 20px; 
+    font-size: 30px; 
+    color: #000;  
+    background-color: transparent;  
+    border: none;  
+    cursor: pointer;  
+    z-index: 1000;  
+}
+
+.home-icon:hover {
+    color: gray;
+}
